@@ -1,3 +1,20 @@
+// ----------- Sidebar toggle -----------
+const layoutToggle = document.getElementById('layoutToggle');
+const layoutIcon = document.getElementById('layoutIcon');
+
+layoutToggle.addEventListener('click', (e) => {
+  e.preventDefault();
+  document.body.classList.toggle('sidebar-right');
+
+  if (document.body.classList.contains('sidebar-right')) {
+    layoutIcon.classList.remove('bi-layout-sidebar-inset');
+    layoutIcon.classList.add('bi-layout-sidebar-reverse');
+  } else {
+    layoutIcon.classList.remove('bi-layout-sidebar-reverse');
+    layoutIcon.classList.add('bi-layout-sidebar-inset');
+  }
+});
+
 // ----------- Load sidebar -----------
 const sidebarPlaceholder = document.getElementById('sidebar-nav-placeholder');
 fetch('./assets/sidebar-nav.html')
