@@ -1,0 +1,484 @@
+/* ----------- Base body styles ----------- */
+body {
+  font-family: Spectral, Arial, Helvetica, sans-serif;
+  font-size: 1.125rem;
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+  background-color: white;
+  color: black;
+}
+
+/* ----------- Headings ----------- */
+h1, h2, h3, h4, h5, h6 {
+  font-family: "Playfair Display", Arial, Helvetica, sans-serif;
+  font-weight: 500;
+}
+
+/* ----------- Sidebar paragraphs ----------- */
+.sidebar p {
+  font-size: 1.125rem;
+  line-height: 1.7;
+  margin-bottom: 1.25rem;
+  text-align: center;
+}
+
+/* ----------- Main content paragraphs ----------- */
+.main-content p {
+  font-size: 1.3rem;
+  line-height: 1.5;
+  margin-bottom: 1.5rem;
+  max-width: 100%;
+}
+
+/* ----------- Responsive adjustments ----------- */
+@media (max-width: 767px) {
+  body {
+    font-family: Arial, Helvetica, sans-serif !important;
+    font-size: 1.3rem;
+    line-height: 1.8;
+  }
+  .main-content p {
+    font-size: 1.3rem;
+    line-height: 1.8;
+  }
+  .main-content,
+  .sidebar {
+    padding-left: 0.5rem;
+    padding-right: 0.5rem;
+  }
+}
+@media (min-width: 768px) and (max-width: 991px) {
+  .main-content p {
+    font-size: 1.4rem;
+    line-height: 1.7;
+  }
+}
+@media (min-width: 992px) {
+  /* ----------- Main content paragraphs ----------- 
+  .main-content p {
+    font-size: 1.4rem; 
+    line-height: 1.7;
+  }
+	*/
+	
+	.main-content p {
+	font-size: 1.25rem; /* 20px */
+		line-height: 1.5;
+		margin-bottom: 1.5rem;
+		max-width: 100%;
+	}	
+	
+  .sidebar a.nav-link {
+    padding-left: 5.5rem !important;
+    text-align: left;
+  }
+  body.sidebar-right .content-grid {
+    grid-template-columns: 1fr 300px; 
+  }
+  body.sidebar-right .sidebar {
+    order: 2;
+  }
+  body.sidebar-right .main-content {
+    order: 1;
+  }
+}
+
+/* ----------- Dark mode ----------- */
+body.dark-mode {
+  background-color: #121212;
+  color: #e0e0e0;
+}
+body.dark-mode .navbar {
+  background-color: #1c1c1c !important;
+}
+body.dark-mode .navbar .navbar-brand,
+body.dark-mode .navbar .nav-link {
+  color: #e0e0e0 !important;
+}
+body.dark-mode .navbar .nav-link:hover {
+  color: #fff !important;
+}
+body.dark-mode .navbar-toggler-icon {
+  filter: invert(0);
+}
+body.dark-mode .sidebar {
+  background-color: #121212 !important;
+  color: #e0e0e0;
+}
+body.dark-mode .sidebar a.nav-link {
+  color: #ccc !important;
+}
+body.dark-mode .sidebar a.nav-link:hover {
+  color: #fff !important;
+}
+body.dark-mode footer {
+  background-color: #1c1c1c !important;
+  color: #e0e0e0 !important;
+}
+body.dark-mode footer ul li {
+  color: #ccc;
+}
+body.dark-mode footer a {
+  color: #e0e0e0 !important;
+}
+body.dark-mode footer a:hover {
+  text-decoration: underline;
+}
+body.dark-mode .pagination .page-link {
+  background-color: #1c1c1c !important;
+  color: #e0e0e0 !important;
+  border-color: #333 !important;
+}
+body.dark-mode .pagination .page-link:hover {
+  background-color: #2a2a2a !important;
+  color: #fff !important;
+}
+body.dark-mode .pagination .page-item.active .page-link {
+  background-color: #000 !important;
+  color: #fff !important;
+  border-color: #000 !important;
+}
+body.dark-mode .post blockquote {
+  background-color: #1c1c1c !important;
+  color: #e0e0e0 !important;
+  border-left: 4px solid #555 !important;
+}
+body.dark-mode .post blockquote p {
+  color: #e0e0e0 !important;
+}
+
+/* ----------- Navbar links ----------- */
+.navbar-nav .nav-link {
+  color: #fff !important;
+  padding-top: 0.5rem;
+  padding-bottom: 0.5rem;
+}
+.navbar-nav .nav-link.active {
+  font-weight: bold;
+}
+
+/* ----------- Sidebar ----------- */
+.sidebar {
+  padding: 2rem 1rem;
+}
+.sidebar img.logo {
+  display: block;
+  margin: 0 auto 1rem auto;
+  width: 100px;
+  border-radius: 15px;
+}
+.sidebar a.nav-link {
+  color: #333;
+  padding-left: 1rem;
+}
+
+/* ----------- Main content container ----------- */
+.main-content {
+  padding: 2rem 1rem;
+}
+
+/* ----------- Posts ----------- */
+.post {
+  margin-bottom: 3rem;
+}
+.post-title {
+  font-weight: 600;
+  font-size: 2rem;
+  margin-bottom: 1rem;
+}
+
+/* ----------- Grid layout ----------- */
+.content-grid {
+  display: grid;
+  grid-template-columns: 300px 1fr;
+  gap: 2rem;
+  margin-top: 1rem;
+  flex: 1;
+}
+
+/* ----------- Footer ----------- */
+footer {
+  background-color: #f8f9fa;
+  padding: 1rem;
+  font-size: 0.85rem; /* default size for normal mode */
+  text-align: center;
+  color: #555;
+}
+footer ul {
+  list-style: none;
+  padding-left: 0;
+  margin: 0.5rem 0 0 0;
+}
+/* Force consistent small font for all footer text */
+footer, 
+footer span {
+  font-size: 0.8rem !important;
+  line-height: 1.2rem;
+}
+
+/* ----------- "Read more" links ----------- */
+.post a.read-more {
+  color: #555;
+  font-style: italic;
+  text-decoration: none;
+  border-bottom: 1px dashed #555;
+  display: inline-block;
+  transition: transform 0.1s ease;
+}
+.post a.read-more:hover {
+  animation: shake 0.3s;
+}
+
+/* ----------- Keyframes for shake effect ----------- */
+@keyframes shake {
+  0% { transform: translateX(0); }
+  20% { transform: translateX(-2px); }
+  40% { transform: translateX(2px); }
+  60% { transform: translateX(-2px); }
+  80% { transform: translateX(2px); }
+  100% { transform: translateX(0); }
+}
+
+/* ----------- Mobile layout adjustments ----------- */
+@media (max-width: 991px) {
+  body:not(.dark-mode) {
+    background-color: #fff !important;
+  }
+  .content-grid {
+    display: flex;
+    flex-direction: column;
+    margin-top: 1rem;
+  }
+  .main-content {
+    order: 1;
+  }
+  .sidebar:not(.dark-mode) {
+    order: 2;
+    background-color: #fff !important;
+    text-align: center;
+  }
+  .navbar:not(.dark-mode) {
+    background-color: #fff !important;
+    color: #000 !important;
+    padding: 1rem;
+  }
+  .navbar:not(.dark-mode) .navbar-brand {
+    color: #000 !important;
+  }
+  .navbar:not(.dark-mode) .nav-link {
+    color: #000 !important;
+  }
+  .navbar-toggler-icon {
+    filter: invert(1);
+  }
+}
+
+/* ----------- Footer links ----------- */
+footer small a {
+  color: #000;
+  text-decoration: none;
+  transition: text-decoration 0.2s ease;
+}
+footer small a:hover {
+  text-decoration: underline;
+}
+
+/* ----------- Navbar toggler ----------- */
+.navbar-toggler-icon {
+  background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 30 30' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(255, 255, 255, 1)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 7h22M4 15h22M4 23h22'/%3E%3C/svg%3E");
+}
+
+/* ----------- Blockquotes ----------- */
+.post blockquote {
+  font-style: italic;
+  color: #555;
+  border-left: 4px solid #ccc;
+  padding-left: 1.5rem;
+  margin: 1.5rem 0;
+  background-color: #f8f9fa;
+  border-radius: 0.25rem;
+}
+.post blockquote p {
+  margin: 0;
+  padding: 0;
+}
+.post blockquote::before,
+.post blockquote::after {
+  content: none;
+}
+
+/* ----------- "Back to top" button ----------- */
+#top-btn {
+  display: none;
+  position: fixed;
+  bottom: 40px;
+  right: 20px;
+  z-index: 99;
+  border: none;
+  outline: none;
+  background-color: #563d7c;
+  color: white;
+  cursor: pointer;
+  padding: 12px 15px;
+  border-radius: 50%;
+  font-size: 20px;
+  opacity: 0.7;
+  transition: opacity 0.3s;
+}
+#top-btn:hover {
+  opacity: 1;
+  background-color: #6f4fa1;
+}
+
+/* ----------- Misc utilities ----------- */
+html {
+  scroll-behavior: smooth;
+}
+.bold {
+  font-weight: bold;
+}
+.italic {
+  font-style: italic;
+}
+.center {
+  text-align: center;
+}
+hr {
+  border: 0;
+  height: 1px;
+  background-image: linear-gradient(to right, rgba(0,0,0,0), rgba(0,0,0,0.75), rgba(0,0,0,0));
+}
+
+/* ----------- Maia boxes ----------- */
+.maia {
+  border: 1px solid;
+  border-radius: 4px;
+  margin: 10px 0;
+  padding: 10px;
+  position: relative;
+  top: -1px;
+  background: #f9f9f9;
+  border-color: #f2f2f2;
+}
+.maia > :first-child {
+  margin-top: 0;
+}
+.maia > :last-child {
+  margin-bottom: 0;
+}
+
+/* ----------- Mark highlight ----------- */
+mark {
+  background: #f9f1f1;
+}
+
+/* ----------- Post metadata ----------- */
+.post-meta {
+  font-size: 0.9em !important;
+  color: #666 !important;
+  margin: 0.2em 0 !important;
+  line-height: 1.3em !important;
+}
+.post-meta a {
+  color: #666 !important;
+  text-decoration: none;
+}
+.post-meta a:hover {
+  text-decoration: underline;
+}
+
+/* ----------- Logo container ----------- */
+.logo-container {
+  text-align: center;
+}
+.logo-container svg {
+  display: inline-block;
+}
+
+/* ----------- TOC List with Small Square Icon ----------- */
+article ul {
+  list-style-type: none; /* remove default bullets */
+  padding-left: 1rem;    /* small indent for icons */
+  margin-bottom: 1.5rem;
+}
+
+article ul li {
+  position: relative;           /* for the icon */
+  font-family: Spectral, Arial, Helvetica, sans-serif;
+  font-size: 1.25rem;
+  line-height: 1.6;             /* slightly increased */
+  margin-bottom: 0.5rem;        /* spacing between lines */
+  color: black;
+  padding-left: 1.2rem;         /* space for the square icon */
+}
+
+/* ----------- TOC List with Larger Square Icon ----------- */
+article ul {
+  list-style-type: none; /* remove default bullets */
+  padding-left: 1rem;    /* small indent for icons */
+  margin-bottom: 1.5rem;
+}
+
+article ul li {
+  position: relative;           /* for the icon */
+  font-family: Spectral, Arial, Helvetica, sans-serif;
+  font-size: 1.25rem;
+  line-height: 1.6;             /* slightly increased */
+  margin-bottom: 0.5rem;        /* spacing between lines */
+  color: black;
+  padding-left: 1.5rem;         /* space for the larger square icon */
+}
+
+/* Larger square icon using ::before */
+article ul li::before {
+  content: "\25AA";             /* small black square ▪ */
+  position: absolute;
+  left: 0;
+  top: 0.45em;                  /* vertically center the square */
+  font-size: 0.9rem;            /* increased size */
+  color: #1a1a1a;               /* subtle color */
+}
+
+/* Optional: links inside TOC */
+article ul li a {
+  color: #1a1a1a;
+  text-decoration: none;
+}
+
+article ul li a:hover {
+  text-decoration: underline;
+}
+
+/* ----------- Responsive adjustments ----------- */
+@media (max-width: 767px) {
+  article ul li {
+    font-size: 1.3rem;
+    line-height: 1.7;
+    padding-left: 1.7rem;
+  }
+  article ul li::before {
+    top: 0.5em;
+    font-size: 1rem; /* larger on mobile too */
+  }
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+  article ul li {
+    font-size: 1.35rem;
+    line-height: 1.65;
+  }
+  article ul li::before {
+    font-size: 0.95rem;
+  }
+}
+
+@media (min-width: 992px) {
+  article ul li {
+    font-size: 1.4rem;
+    line-height: 1.6;
+  }
+  article ul li::before {
+    font-size: 0.9rem;
+  }
+}

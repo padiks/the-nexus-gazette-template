@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<articles>
+
+<!-- Content summarized from It's FOSS: https://news.itsfoss.com/debian-13-release/ -->
+<article>
+	<title>Debian 13 &#34;Trixie&#34; Released: What&#39;s New in the Latest Version?</title>
+	<date>August 11, 2025</date>
+	<source>Source: <a href="https://news.itsfoss.com/debian-13-release/">It's FOSS</a></source>
+	<body>
+		<p>Debian 13 "Trixie" introduces significant updates, including the adoption of Linux kernel 6.12, which enhances support for modern hardware such as Arrow Lake and Lunar Lake processors. This long-term support kernel ensures Debian remains compatible with the latest technologies while maintaining stability.</p>
+		<p>For the first time, Debian officially supports the riscv64 architecture, expanding its reach to 64-bit RISC-V hardware. This move aligns with the growing interest in open-source instruction set architectures in various sectors.</p>
+		<p>For more details and instructions on upgrading, visit the official release notes. <a class="read-more" href="https://news.itsfoss.com/debian-13-release/">Read more.</a></p>			
+	</body>
+</article>
+
+<!-- Original content created by The Nexus Gazette / AI-assisted -->
+<article>
+	<title>Exploring the Art of Minimalist Software Design</title>
+	<date>August 1, 2025</date>
+	<source><a href="https://chat.openai.com/">More on chat.openai.com</a></source>
+	<body>
+		<p>Minimalist software design focuses on simplicity and clarity, ensuring that each feature serves a meaningful purpose. This approach often results in more maintainable and less error-prone systems.</p>
+		<p>By reducing unnecessary complexity, developers can create tools that are intuitive for users and easier to extend or debug.</p>
+	</body>
+</article>
+
+<!-- Content summarized from: https://freebsdfoundation.org/wp-content/uploads/2023/06/leyhey_timeflies.pdf -->
+<article>
+	<title>How Time Flies: A Personal Timeline</title>
+	<date>May–June 2023</date>
+	<source><a href="https://freebsdfoundation.org/wp-content/uploads/2023/06/leyhey_timeflies.pdf">FreeBSD Foundation</a></source>
+	<body>
+		<p>Greg Lehey reflects on his 30-year journey with FreeBSD, tracing his experiences from the early days of Unix to his involvement with FreeBSD. Starting his career in 1973 at UNIAC in Frankfurt/Main, he later joined Tandem Computers, where he worked with Unix System V. In 1992, he transitioned to consulting and discovered BSD/386, which led him to explore FreeBSD. His first encounter with FreeBSD was in 1993 when he met developers at Walnut Creek CDROM and received a FreeBSD 1.0 CD-ROM. Over the years, Lehey contributed to the FreeBSD community, including authoring a book on FreeBSD installation. His timeline offers a personal perspective on the evolution of FreeBSD and his role within its community.</p>
+		<p>For more detailed information, refer to the <a class="read-more" href="https://freebsdfoundation.org/wp-content/uploads/2023/06/leyhey_timeflies.pdf">original article</a>.</p>
+	</body>
+</article>
+
+</articles>

@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<articles>
+
+<!-- Original content created by The Nexus Gazette / AI-assisted -->
+<article>
+	<title>Why FreeBSD Still Matters</title>
+	<date>August 26, 2025</date>
+	<source><a href="https://www.freebsd.org/press/">More on FreeBSD Press</a></source>
+	<body>
+		<p>For decades, FreeBSD has quietly powered some of the most reliable systems on the internet. Its design philosophy emphasizes clarity, stability, and a well-documented base system, which makes it a favorite for developers who value reliability over hype.</p>
+		<blockquote>
+			<p>Beyond its technical elegance, FreeBSD offers a cohesive and integrated system that makes maintenance straightforward. Its ports and packages system provides access to a wide range of software, ensuring flexibility without compromising stability.</p>
+		</blockquote>
+		<p>The community behind FreeBSD continues to innovate, supporting modern hardware and network technologies while keeping the system lean and secure. This ongoing evolution demonstrates that FreeBSD is far from stagnant—it’s a robust platform for both learning and production use.</p>
+	</body>
+</article>
+
+<!-- Original content created by The Nexus Gazette / AI-assisted -->
+<article>
+	<title>Debian: The Universal Operating System</title>
+	<date>August 26, 2025</date>
+	<source><a href="https://www.debian.org/News/">More on Debian News</a></source>
+	<body>
+		<p>Debian has earned its reputation as one of the most stable and community-driven projects in the open-source ecosystem. With thousands of volunteers, it continues to shape the landscape of computing.</p>
+		<p>One of Debian’s defining features is its vast repository of software, which allows users to install thousands of applications with ease. Its robust package management system ensures that software is both reliable and secure, making it a preferred choice for servers, desktops, and embedded systems alike.</p>
+	</body>
+</article>
+
+<!-- Original content created by The Nexus Gazette / AI-assisted -->
+<article>
+	<title>Puppy Linux: Lightweight and Fast</title>
+	<date>August 26, 2025</date>
+	<source>Learn more about <a href="https://puppylinux-woof-ce.github.io/">Puppy Linux</a></source>
+	<body>
+		<p>Puppy Linux is a small yet powerful Linux distribution designed to run efficiently on older hardware or systems with limited resources. Despite its tiny footprint, it offers a fully functional desktop experience, making it ideal for users who need speed and simplicity.</p>
+	</body>
+</article>
+
+</articles>

@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<articles>
+
+<!-- Content summarized from: https://machaddr.substack.com/p/theo-de-raadt-pioneering-open-source -->
+<article>
+	<title>Theo de Raadt: Pioneering Open Source Advocate and OpenBSD Founder</title>
+	<date>August 10, 2023</date>
+	<source><a href="https://machaddr.substack.com/p/theo-de-raadt-pioneering-open-source">Machaddr Substack</a></source>
+	<body>
+		<p>Theo de Raadt is a prominent figure in the open-source software community, best known as the founder and leader of the OpenBSD operating system project. His work has significantly influenced the development of secure and reliable open-source software.</p>
+		<p>For more detailed information, refer to the <a class="read-more" href="https://machaddr.substack.com/p/theo-de-raadt-pioneering-open-source">original article</a>.</p>
+	</body>
+</article>
+
+<!-- Content summarized from: https://arstechnica.com/information-technology/2016/01/the-birth-of-debian-in-the-words-of-ian-murdock-himself/ -->
+<article>
+	<title>The Birth of Debian, in the Words of Ian Murdock Himself</title>
+	<date>January 6, 2016</date>
+	<source><a href="https://arstechnica.com/information-technology/2016/01/the-birth-of-debian-in-the-words-of-ian-murdock-himself/">Ars Technica</a></source>
+	<body>
+		<p>In this article, Ian Murdock, the founder of Debian, reflects on the origins of the Debian project. He discusses his motivations for creating a new Linux distribution, emphasizing the importance of community involvement and the principles of open-source development. Murdock provides insights into the early challenges faced by the project and how Debian aimed to provide a high-quality, community-driven alternative to existing distributions.</p>
+		<p>For more detailed information, refer to the <a class="read-more" href="https://arstechnica.com/information-technology/2016/01/the-birth-of-debian-in-the-words-of-ian-murdock-himself/">original article</a>, the <a class="read-more" href="https://wiki.debian.org/DebianHistory?action=AttachFile&amp;do=get&amp;target=Debian-announcement-1993.txt">1993 Debian announcement</a>, or the <a class="read-more" href="https://www.debian.org/doc/manuals/project-history/intro.en.html">Debian Project History page</a>.</p>
+	</body>
+</article>
+
+<!-- Content summarized from FreeBSD Documentation Archive: https://docs-archive.freebsd.org/doc/7.3-RELEASE/usr/share/doc/en/articles/linux-comparison/ -->
+<article>
+	<title>FreeBSD: An Open Source Alternative to Linux</title>
+	<date>August 8, 2006</date>
+  	<source><a href="https://docs-archive.freebsd.org/doc/7.3-RELEASE/usr/share/doc/en/articles/linux-comparison/">FreeBSD Documentation Archive</a></source>
+	<body>
+    	<p>This article by Dru Lavigne explores the distinctions between FreeBSD and Linux, highlighting FreeBSD's unified approach as a complete operating system, its BSD licensing advantages, and its streamlined development process.</p>
+    	<p>For more detailed information, refer to the <a class="read-more" href="https://docs-archive.freebsd.org/doc/7.3-RELEASE/usr/share/doc/en/articles/linux-comparison/">original article</a>.</p>	
+	</body>
+</article>
+	
+</articles>
